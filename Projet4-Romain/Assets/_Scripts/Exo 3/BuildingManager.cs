@@ -9,7 +9,6 @@ public class BuildingManager : MonoBehaviour
 
     private NativeArray<Building.Data> _buildingDataArray;
     private BuildingUpdateJob _job;
-    private JobHandle _jobHandle;
 
     private void Awake()
     {

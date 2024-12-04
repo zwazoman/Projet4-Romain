@@ -1,5 +1,8 @@
+using System.Diagnostics;
 using Unity.Collections;
 using Unity.Jobs;
+using UnityEngine;
+
 
 public struct BuildingUpdateJob : IJobParallelFor
 {
